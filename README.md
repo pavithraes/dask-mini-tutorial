@@ -1,12 +1,11 @@
 # Dask Mini Tutorial
 
-The purpose of this tutorial is to introduce folks to Dask and show them how to scale their python data-science and machine learning workflows. The materials covered are:
+The purpose of this tutorial is to introduce folks to Dask and show them how to scale their python data-science and machine learning workflows. The topics covered are:
 
 0. Overview of Dask - How it works and when to use it.
 1. From pandas to Dask: How to manipulate bigger-than-memory DataFrames using Dask.
 2. Dask Delayed: How to parallelize existing Python code and your custom algorithms.
-2. Schedulers: Single Machine vs Distributed, and the Dashboard.
-4. (Bonus?) Dask-ML: Scalable machine learning using Dask.
+3. Schedulers: Single Machine vs Distributed, and the Dashboard.
 
 ## Prerequisites
 
@@ -21,26 +20,27 @@ However, the most important prerequisite is being willing to learn, and everyone
 welcomed to tag along and enjoy the ride. If you would like to watch and not code along,
 not a problem.
 
-## Get set up
+## Getting set up
 
-We have two options for you to follow this tutorial:
+You have two options to follow this tutorial:
 
-1. (Recomended) You can create your own set-up locally. To do this you need to be comfortable with the git and GitHub as well as installing packages and creating software environments. If so, follow the next steps:
-
-    *NOTE:* If you are joining for a live session please make sure you do the setup in advance, and be ready to go once the session starts.
+1. (Recomended) You can create your own set-up locally. To do this you need to be comfortable with git and GitHub as well as installing packages and creating software environments. If so, follow the next steps:
 
     1. **Clone this repository**
+
         In your terminal:
 
         ```
-        git clone https://github.com/coiled/dask-mini-tutorial.git
+        git clone https://github.com/<username>/dask-mini-tutorial.git
         ```
         Alternatively, you can download the zip file of the repository at the top of the main page of the repository. This is a good option if you don't have experience with git.
 
     2. Download Anaconda
+
         If you do not have anaconda already install, you will need the Python 3 [Anaconda Distribution](https://www.anaconda.com/products/individual). If you don't want to install anaconda you can install all the packages with `pip`, if you take this route you will need to install `graphviz` separately before installing `pygraphviz`.
 
     3. Create a conda environment
+
         In your terminal navigate to the directory where you have cloned/downloaded th `dask-mini-tutorial` repo and install the required packages by doing:
 
         ```
@@ -54,6 +54,7 @@ We have two options for you to follow this tutorial:
         ```
 
     4. Open Jupyter Lab
+
         Once your environment has been activated and you are in the `dask-mini-tutorial` repository, in your terminal do:
 
         ```
@@ -62,9 +63,10 @@ We have two options for you to follow this tutorial:
 
         You will see a notebooks directory, click on there and you will be ready to go.
 
-2. Click on the binder button right below, this will spin up the necessary computational environment for you so you can write and execute the notebooks directly on the browser. Binder is a free service so resources are not guaranteed, but they usually work. One thing
-to keep in mind is that the amount of resources are limited and sometimes you won't be able to see the benefits of parallelism due to this limitation.
+2. Click on the binder button right below, this will spin up the necessary computational environment for you so you can write and execute the notebooks directly on the browser. Binder is a free service so resources are not guaranteed, but they usually work. One thing to keep in mind is that the amount of resources are limited and sometimes you won't be able to see the benefits of parallelism due to this limitation.
 
     *NOTE*: If you are joining the live session, make sure to click on the button few minutes before we start so we are ready to go.
 
     [![Binder]()
+
+*This fork of `coiled/dask-mini-tutorial` has been updated to be shorter and more personalized for Pavithra's tutorials.*
