@@ -2,8 +2,8 @@
 
 The purpose of this tutorial is to introduce folks to Dask and show them how to scale their python data-science and machine learning workflows. The topics covered are:
 
-0. Overview of Dask - How it works and when to use it.
-1. From pandas to Dask: How to manipulate bigger-than-memory DataFrames using Dask.
+0. Slides: Overview of Dask
+1. Dask DataFrame: How to manipulate bigger-than-memory DataFrames using Dask.
 2. Dask Delayed: How to parallelize existing Python code and your custom algorithms.
 3. Schedulers: Single Machine vs Distributed, and the Dashboard.
 
@@ -12,7 +12,7 @@ The purpose of this tutorial is to introduce folks to Dask and show them how to 
 To follow along and get the most out of this tutorial it would help if you Know:
 
 - Programming fundamentals in Python (e.g., variables, data structures, for loops, etc.)
-- A bit of or are familiarized with `numpy`, `pandas` and `scikit-learn`
+- A bit of or are familiarized with `pandas`
 - Jupyter Lab / Jupyter Notebooks
 - Your way around the shell/terminal
 
@@ -67,6 +67,6 @@ You have two options to follow this tutorial:
 
     *NOTE*: If you are joining the live session, make sure to click on the button few minutes before we start so we are ready to go.
 
-    [![Binder]()
+    [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pavithraes/dask-mini-tutorial/HEAD?labpath=notebooks%2F1_DataFrames.ipynb)
 
 *This fork of `coiled/dask-mini-tutorial` has been updated to be shorter and more personalized for Pavithra's tutorials.*
